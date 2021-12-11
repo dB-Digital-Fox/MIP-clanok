@@ -20,17 +20,11 @@ Primárne požiadavky systému je diaľkový zber vitálnych funkcií pacienta, 
 
 RFID senzory môžu komunikovať bezdrôtovo s mobilným zariadením a následne pomocou mobilnej siete prenášať informácie do centrálneho monitorovacieho systému - počítača. Tento systém umožňuje implementáciu viacerých užívateľov ako aj počet oblastí monitorovania. \cite{2019} 
 
-Systém pozostáva z rôznych softvérových modulov. Ide o tieto moduly: programovateľné rozhranie pre jednotku zberu dát – aplikácia (DAQ-API), fuzzy logický engine (FLE), databázový manažér (DM), grafické používateľské rozhranie (GUI) a webová aplikácia (Web- Aplikácia). Podrobnosti a funkcie každého softvérového modulu sú zhrnuté nižšie. \cite{2019}
-
-Modul DAQ-API umožňuje interakciu s čítačkou RFID s cieľom zhromažďovať vitálne funkcie pacienta v reálnom čase a zobrazovať ich na obrazovke API. Je to front-end monitorovacie a prevádzkové rozhranie pre používateľov systému.\cite{2019}
-
-DM, GUI a Web-App boli vyvinuté ako echo moduly. Používajú sa na profilovanie používateľov, ukladanie životných funkcií a umožňujú im interakciu so systémom cez web. Podrobný popis týchto echo modulov možno nájsť v štúdii Al-Damour\cite{2013}.\cite{2019}
-
-Model fuzzy logiky má tri postupné procesy: fuzzyfikácia, systém založený na pravidlách a proces defuzzyfikácie.\cite{2019}
+Systém pozostáva z rôznych softvérových modulov. Ide o tieto moduly: programovateľné rozhranie pre jednotku zberu dát – aplikácia (DAQ-API), fuzzy logic engine (FLE), databázový manažér (DM), grafické používateľské rozhranie (GUI) a webová aplikácia (Web- Aplikácia).\cite{2019} Podrobnosti a funkcie každého softvérového modulu nájdete v tomto článku \cite{2019}. 
 
 \begin{figure}[H]
 \centering
-\includegraphics[scale=0.65]{rule-based-engine.png}
+\includegraphics[scale=0.5]{rule-based-engine.png}
 \caption{Prekreslená schéma fuzzy procesu podľa článku\cite{2019}}
 \label{fuzzy}
 \end{figure}
